@@ -1,0 +1,4 @@
+I, [2018-06-14T02:58:31.137332 #6185]  INFO -- default-centos-69: -----> Creating <default-centos-69>...
+I, [2018-06-14T02:58:31.212504 #6185]  INFO -- default-centos-69: 0.0.0.0:32768
+I, [2018-06-14T02:58:31.304559 #6185]  INFO -- default-centos-69: [SSH] Established
+I, [2018-06-14T02:58:31.306160 #6185]  INFO -- default-centos-69: Finished creating <default-centos-69> (0m0.17s).
