@@ -1,3 +1,3 @@
 # CICD
 pipeline
-V2
+V1.1
