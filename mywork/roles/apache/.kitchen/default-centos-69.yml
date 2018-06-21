@@ -1,9 +1,0 @@
----
-username: kitchen
-ssh_key: "/root/CICD/mywork/roles/apache/.kitchen/docker_id_rsa"
-image_id: 0fa7ea2f031b
-container_id: bd5d1fddf4c64892a6c91534d12eaebae1e3d2a1ebafc11141297027c5e2ef34
-hostname: localhost
-port: 32769
-last_action: converge
-last_error: 
