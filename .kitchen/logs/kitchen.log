@@ -1,0 +1,31 @@
+I, [2018-06-20T05:31:11.504447 #4718]  INFO -- Kitchen: -----> Starting Kitchen (v1.21.2)
+E, [2018-06-20T05:31:11.505295 #4718] ERROR -- Kitchen: ------Exception-------
+E, [2018-06-20T05:31:11.505330 #4718] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-06-20T05:31:11.505347 #4718] ERROR -- Kitchen: Message: Kitchen YAML file /root/CICD/.kitchen.yml does not exist.
+E, [2018-06-20T05:31:11.505360 #4718] ERROR -- Kitchen: ----------------------
+E, [2018-06-20T05:31:11.505372 #4718] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-06-20T05:31:11.505384 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2018-06-20T05:31:11.505397 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:152:in `data'
+E, [2018-06-20T05:31:11.505409 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:131:in `suites'
+E, [2018-06-20T05:31:11.505422 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-06-20T05:31:11.505451 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-06-20T05:31:11.505465 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/config.rb:117:in `instances'
+E, [2018-06-20T05:31:11.505478 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-06-20T05:31:11.505490 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-06-20T05:31:11.505503 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/command/action.rb:35:in `block in call'
+E, [2018-06-20T05:31:11.505519 #4718] ERROR -- Kitchen: /usr/local/rvm/rubies/ruby-2.4.1/lib/ruby/2.4.0/benchmark.rb:293:in `measure'
+E, [2018-06-20T05:31:11.505533 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/command/action.rb:34:in `call'
+E, [2018-06-20T05:31:11.505545 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-06-20T05:31:11.505557 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/cli.rb:193:in `block (2 levels) in <class:CLI>'
+E, [2018-06-20T05:31:11.505569 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+E, [2018-06-20T05:31:11.505581 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-06-20T05:31:11.505593 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+E, [2018-06-20T05:31:11.505605 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+E, [2018-06-20T05:31:11.505617 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-06-20T05:31:11.505630 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-06-20T05:31:11.505644 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.21.2/bin/kitchen:13:in `<top (required)>'
+E, [2018-06-20T05:31:11.505657 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/bin/kitchen:23:in `load'
+E, [2018-06-20T05:31:11.505669 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/bin/kitchen:23:in `<main>'
+E, [2018-06-20T05:31:11.505680 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `eval'
+E, [2018-06-20T05:31:11.505692 #4718] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:15:in `<main>'
+E, [2018-06-20T05:31:11.505703 #4718] ERROR -- Kitchen: ----End Backtrace-----
