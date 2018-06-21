@@ -1,4 +1,4 @@
 # CICD
 pipeline
-"V1.8"
+"V2.0"
 
