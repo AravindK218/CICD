@@ -1,4 +1,4 @@
 # CICD
 pipeline
-"New Machine"
+"New Machine1.0"
 
