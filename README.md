@@ -1,4 +1,4 @@
 # CICD
 pipeline
-"New Machine1.1"
+"my-appl.0"
 
