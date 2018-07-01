@@ -16,10 +16,10 @@
  - name: Modifying httpd.conf file
    replace:
       path: /etc/httpd/conf/httpd.conf
-      regexp: '^#ServerName www.example.com'
+      regexp: '^#ServerName www.site2.com'
       replace: 'ServerName {{ipaddress}}'
-   notify: httpd restart
+   notify: nginx restart
  
  - name: Copying the index.html file
-   template: src=index.html dest=/var/www/html/index.html
+   template: src=index1.html dest=/var/www/html/index1.html
    notify: httpd restart
