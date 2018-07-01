@@ -1,0 +1,28 @@
+E, [2018-07-01T04:24:44.443425 #15459] ERROR -- Kitchen: ------Exception-------
+E, [2018-07-01T04:24:44.443492 #15459] ERROR -- Kitchen: Class: Kitchen::UserError
+E, [2018-07-01T04:24:44.443514 #15459] ERROR -- Kitchen: Message: Kitchen YAML file /root/CICD/roles/apache/tasks/.kitchen.yml does not exist.
+E, [2018-07-01T04:24:44.443529 #15459] ERROR -- Kitchen: ----------------------
+E, [2018-07-01T04:24:44.443543 #15459] ERROR -- Kitchen: ------Backtrace-------
+E, [2018-07-01T04:24:44.443555 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/loader/yaml.rb:65:in `read'
+E, [2018-07-01T04:24:44.443568 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/config.rb:152:in `data'
+E, [2018-07-01T04:24:44.443590 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/config.rb:131:in `suites'
+E, [2018-07-01T04:24:44.443604 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/config.rb:182:in `filter_instances'
+E, [2018-07-01T04:24:44.443617 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/config.rb:141:in `build_instances'
+E, [2018-07-01T04:24:44.443629 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/config.rb:117:in `instances'
+E, [2018-07-01T04:24:44.443645 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/command.rb:112:in `filtered_instances'
+E, [2018-07-01T04:24:44.443658 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/command.rb:142:in `parse_subcommand'
+E, [2018-07-01T04:24:44.443670 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/command/list.rb:30:in `call'
+E, [2018-07-01T04:24:44.443682 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/cli.rb:52:in `perform'
+E, [2018-07-01T04:24:44.443694 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/cli.rb:120:in `list'
+E, [2018-07-01T04:24:44.443706 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/thor-0.20.0/lib/thor/command.rb:27:in `run'
+E, [2018-07-01T04:24:44.443718 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/thor-0.20.0/lib/thor/invocation.rb:126:in `invoke_command'
+E, [2018-07-01T04:24:44.443730 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/thor-0.20.0/lib/thor.rb:387:in `dispatch'
+E, [2018-07-01T04:24:44.443742 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/thor-0.20.0/lib/thor/base.rb:466:in `start'
+E, [2018-07-01T04:24:44.443754 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/bin/kitchen:13:in `block in <top (required)>'
+E, [2018-07-01T04:24:44.443771 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/lib/kitchen/errors.rb:171:in `with_friendly_errors'
+E, [2018-07-01T04:24:44.443783 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/gems/test-kitchen-1.22.0/bin/kitchen:13:in `<top (required)>'
+E, [2018-07-01T04:24:44.443796 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/bin/kitchen:23:in `load'
+E, [2018-07-01T04:24:44.443807 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/bin/kitchen:23:in `<main>'
+E, [2018-07-01T04:24:44.443819 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `eval'
+E, [2018-07-01T04:24:44.443831 #15459] ERROR -- Kitchen: /usr/local/rvm/gems/ruby-2.4.1/bin/ruby_executable_hooks:24:in `<main>'
+E, [2018-07-01T04:24:44.443842 #15459] ERROR -- Kitchen: ----End Backtrace-----
